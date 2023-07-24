@@ -1,10 +1,16 @@
 import './App.css';
 import Countdown from './components/Countdown';
+import Directive from './components/Directive';
+import Header from './components/Header';
+import Title from './components/Title';
 
 function App() {
   return (
    <div>
-  <Countdown seconds={20000}/>
+    <Header/>
+    <Directive/>
+    <Title/>
+  <Countdown seconds={10}/>
    </div>
   );
 }
