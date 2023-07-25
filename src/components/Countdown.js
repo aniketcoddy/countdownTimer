@@ -29,7 +29,7 @@ function Countdown({ seconds }) {
     return (
         <div>
             <div className='sm:hidden'>
-                <div className='bg-[#FFB300] ml-40 md:ml-7 mr-14  flex justify-between items-center rounded-3xl '>
+                <div className='bg-[#FFB300] ml-6 mr-14  flex justify-between items-center rounded-3xl '>
                     <div className='flex justify-center items-center'>
                         <img src="1.png" className='w-10 ml-0' />
                         <h1 className='ml-3 text-xl font-semibold xl:text-lg lg:text-sm md:text-xs'>LIMITED TIME OFFER</h1>
