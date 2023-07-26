@@ -3,11 +3,10 @@ import React from 'react'
 function Card() {
   return (
     <div>
-
-      <div className='flex justify-between p-4  mr-16 ml-16 bg-white border-2 border-[[#5f5e5e]]'>
+      <div className=' flex justify-between p-4  mr-16 ml-16 bg-white border-2'>
           <div className='flex'>
             <div>
-              <h1 className='text-lg font-semibold font-[GothamProBold,sans-serif]' >1</h1>
+              <h1 className='text-lg font-semibold font-[GothamProBold,sans-serif]'>1</h1>
             </div>
             <div className='ml-10 gap-4 flex flex-col'>
               <h1 className='text-lg text-[#008CF2] font-semibold font-[GothamProBold,sans-serif]'>Microsoft 62-193 Premium Bundle</h1>
